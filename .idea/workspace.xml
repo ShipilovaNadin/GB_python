@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87af77d4-9869-4be7-abc7-5b43c004b292" name="Changes" comment="add 2 seminar_02.">
-      <change afterPath="$PROJECT_DIR$/lesson_02/homework/task_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_02/homework/task_02.py" afterDir="false" />
+    <list default="true" id="87af77d4-9869-4be7-abc7-5b43c004b292" name="Changes" comment="add 3 HM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_03/task_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_03/task_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="homework_03" />
       </map>
     </option>
   </component>
@@ -39,21 +38,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/nadin/GB_python/GB_python/lesson_02"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nadin/GB_python/GB_python/lesson_02&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nadin\GB_python\GB_python\lesson_03" />
       <recent name="C:\Users\nadin\GB_python\GB_python\lesson_02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\nadin\GB_python\GB_python\lesson_01" />
       <recent name="C:\Users\nadin\GB_python\GB_python" />
+      <recent name="C:\Users\nadin\GB_python\GB_python\lesson_01" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -93,7 +93,28 @@
       <option name="project" value="LOCAL" />
       <updated>1692641469124</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add 2 homework">
+      <created>1692648694332</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692648694332</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add 3 seminar">
+      <created>1693028697572</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693028697572</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add 3 HM">
+      <created>1693030850760</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693030850760</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +134,9 @@
     <MESSAGE value="add tasks from 1 seminar" />
     <MESSAGE value="add folders and tasks from 2 seminar." />
     <MESSAGE value="add 2 seminar_02." />
-    <option name="LAST_COMMIT_MESSAGE" value="add 2 seminar_02." />
+    <MESSAGE value="add 2 homework" />
+    <MESSAGE value="add 3 seminar" />
+    <MESSAGE value="add 3 HM" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 3 HM" />
   </component>
 </project>
