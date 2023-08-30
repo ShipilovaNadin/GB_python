@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87af77d4-9869-4be7-abc7-5b43c004b292" name="Changes" comment="add 3 HM">
+    <list default="true" id="87af77d4-9869-4be7-abc7-5b43c004b292" name="Changes" comment="add 4 seminar">
+      <change afterPath="$PROJECT_DIR$/lesson_04/homework_04/task_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_04/homework_04/task_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_04/homework_04/task_03.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_03/task_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_03/task_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework_03" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -114,7 +116,28 @@
       <option name="project" value="LOCAL" />
       <updated>1693030850760</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="start 4 seminar">
+      <created>1693033085822</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693033085822</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1693033147079</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693033147079</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add 4 seminar">
+      <created>1693330945160</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693330945160</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +160,9 @@
     <MESSAGE value="add 2 homework" />
     <MESSAGE value="add 3 seminar" />
     <MESSAGE value="add 3 HM" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 3 HM" />
+    <MESSAGE value="start 4 seminar" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="add 4 seminar" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 4 seminar" />
   </component>
 </project>
