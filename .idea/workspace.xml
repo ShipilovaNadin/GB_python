@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87af77d4-9869-4be7-abc7-5b43c004b292" name="Changes" comment="add 5 seminar">
-      <change afterPath="$PROJECT_DIR$/lesson_05/help.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_05/task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_05/task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_05/task_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_05/task_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_05/task_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_05/task_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_05/task_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_05/homework_05/task_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_05/homework_05/task_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_05/homework_05/task_03.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GB_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GB_python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_04/task_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_04/task_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_04/task_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_04/task_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_05/help.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_05/help.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HW_4" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -127,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693030850760</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add 5 seminar">
+      <created>1693473825986</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693473825986</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add 5 seminar">
+      <created>1693473852321</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693473852321</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
