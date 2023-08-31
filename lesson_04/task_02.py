@@ -12,3 +12,13 @@ def func(data):
 
 data = input("Введите строку текста: ")
 print(func(data))
+
+
+def my_symbols(text: str):
+    lst = []
+    for i in set(text):
+        lst.append(ord(i))
+    return sorted(lst, reverse=True)
+
+text_1 = input("Введите строку текста: ")
+print(my_symbols(text_1), sep=', ')
