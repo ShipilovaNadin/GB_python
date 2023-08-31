@@ -1,0 +1,110 @@
+Index: lesson_04/task_03.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"\r\nЗадание №3\r\n✔ Функция получает на вход строку из двух чисел через пробел.\r\n✔ Сформируйте словарь, где ключом будет\r\nсимвол из Unicode, а значением — целое число.\r\n✔ Диапазон пар ключ-значение от наименьшего из введённых\r\nпользователем чисел до наибольшего включительно\r\n\"\"\"\r\n\r\n\r\ndef func(data):\r\n    dct = {chr(int(el)): el for el in sorted(data.split())}\r\n    return dct\r\n\r\n\r\nprint(func('1 4 3'))
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson_04/task_03.py b/lesson_04/task_03.py
+--- a/lesson_04/task_03.py	(revision b7375005c961c57003d126204191e943085e8ae2)
++++ b/lesson_04/task_03.py	(date 1693383925908)
+@@ -13,4 +13,17 @@
+     return dct
+ 
+ 
+-print(func('1 4 3'))
+\ No newline at end of file
++print(func('1 4 3'))
++
++
++def uni_symb(text: str) -> dict[str, int]:
++    lst = list(map(int, text.split()))
++    symb = {}
++    for i in range(min(lst), max(lst)):
++        symb[chr(i)] = i
++    return symb
++
++
++numms = input("Введите цифры: ")
++dict_ = uni_symb(numms)
++print(dict_)
+Index: lesson_04/task_02.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"\r\nЗадание №2\r\n✔ Напишите функцию, которая принимает строку текста.\r\n✔ Сформируйте список с уникальными кодами Unicode каждого\r\nсимвола введённой строки отсортированный по убыванию\r\n\"\"\"\r\n\r\ndef func(data):\r\n    res = sorted(list(set([ord(el) for el in data])), reverse=True)\r\n    return res\r\n\r\n\r\ndata = input(\"Введите строку текста: \")\r\nprint(func(data))
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson_04/task_02.py b/lesson_04/task_02.py
+--- a/lesson_04/task_02.py	(revision b7375005c961c57003d126204191e943085e8ae2)
++++ b/lesson_04/task_02.py	(date 1693377545355)
+@@ -11,4 +11,14 @@
+ 
+ 
+ data = input("Введите строку текста: ")
+-print(func(data))
+\ No newline at end of file
++print(func(data))
++
++
++def my_symbols(text: str):
++    lst = []
++    for i in set(text):
++        lst.append(ord(i))
++    return sorted(lst, reverse=True)
++
++text_1 = input("Введите строку текста: ")
++print(my_symbols(text_1), sep=', ')
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"87af77d4-9869-4be7-abc7-5b43c004b292\" name=\"Changes\" comment=\"add 3 HM\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/lesson_03/task_2.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/lesson_03/task_2.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"homework_03\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Tt8H2GLgVnvz40YzVmcT5v6Qc9\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/nadin/GB_python/GB_python/lesson_02&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\nadin\\GB_python\\GB_python\\lesson_03\" />\r\n      <recent name=\"C:\\Users\\nadin\\GB_python\\GB_python\\lesson_02\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\nadin\\GB_python\\GB_python\" />\r\n      <recent name=\"C:\\Users\\nadin\\GB_python\\GB_python\\lesson_01\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"87af77d4-9869-4be7-abc7-5b43c004b292\" name=\"Changes\" comment=\"\" />\r\n      <created>1691850932004</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1691850932004</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"add task_1\">\r\n      <created>1691913992319</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1691913992319</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"add tasks from 1 seminar\">\r\n      <created>1692126797535</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1692126797535</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"add folders and tasks from 2 seminar.\">\r\n      <created>1692529265007</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1692529265007</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"add 2 seminar_02.\">\r\n      <created>1692641469124</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1692641469124</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"add 2 homework\">\r\n      <created>1692648694332</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1692648694332</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"add 3 seminar\">\r\n      <created>1693028697572</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1693028697572</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"add 3 HM\">\r\n      <created>1693030850760</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1693030850760</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"add task_1\" />\r\n    <MESSAGE value=\"add tasks from 1 seminar\" />\r\n    <MESSAGE value=\"add folders and tasks from 2 seminar.\" />\r\n    <MESSAGE value=\"add 2 seminar_02.\" />\r\n    <MESSAGE value=\"add 2 homework\" />\r\n    <MESSAGE value=\"add 3 seminar\" />\r\n    <MESSAGE value=\"add 3 HM\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"add 3 HM\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision b7375005c961c57003d126204191e943085e8ae2)
++++ b/.idea/workspace.xml	(date 1693395505687)
+@@ -4,9 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="87af77d4-9869-4be7-abc7-5b43c004b292" name="Changes" comment="add 3 HM">
++    <list default="true" id="87af77d4-9869-4be7-abc7-5b43c004b292" name="Changes" comment="add 4 homework">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/lesson_03/task_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_03/task_2.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/GB_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GB_python.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/lesson_04/task_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_04/task_02.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/lesson_04/task_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_04/task_03.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -43,7 +45,8 @@
+     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nadin/GB_python/GB_python/lesson_02&quot;
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/nadin/GB_python/GB_python/lesson_03&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+   }
+ }</component>
+   <component name="RecentsManager">
+Index: GB_python.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"PYTHON_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\" />\r\n    <orderEntry type=\"jdk\" jdkName=\"Python 3.10 (GB_python)\" jdkType=\"Python SDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/GB_python.iml b/GB_python.iml
+--- a/GB_python.iml	(revision b7375005c961c57003d126204191e943085e8ae2)
++++ b/GB_python.iml	(date 1693385499710)
+@@ -6,4 +6,7 @@
+     <orderEntry type="jdk" jdkName="Python 3.10 (GB_python)" jdkType="Python SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
++  <component name="SonarLintModuleSettings">
++    <option name="uniqueId" value="add21770-041f-43a5-963c-61c6d48e8b28" />
++  </component>
+ </module>
+\ No newline at end of file
