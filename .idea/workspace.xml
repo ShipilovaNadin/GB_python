@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87af77d4-9869-4be7-abc7-5b43c004b292" name="Changes" comment="add 5 seminar">
-      <change afterPath="$PROJECT_DIR$/lesson_06/task_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_06/task_2/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_06/task_2/task_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_06/task_3/task_03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_06/task_4/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_06/task_4/task_04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_06/task_6/task_06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_06/task_7/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_06/task_7/task_07.py" afterDir="false" />
+    <list default="true" id="87af77d4-9869-4be7-abc7-5b43c004b292" name="Changes" comment="add 6 seminar">
+      <change afterPath="$PROJECT_DIR$/lesson_06/homework_06/task_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_06/homework_06/task_02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GB_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GB_python.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +106,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="task_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GB_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\nadin\GB_python\GB_python\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.10 (GB_python)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_06/homework_06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_06/homework_06/task_01.py" />
+      <option name="PARAMETERS" value="01.01.2010" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="task_03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GB_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,10 +153,13 @@
     <list>
       <item itemvalue="Python.Unnamed (1)" />
       <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.task_01" />
       <item itemvalue="Python.task_03" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task_01" />
+        <item itemvalue="Python.task_01" />
         <item itemvalue="Python.task_03" />
       </list>
     </recent_temporary>
@@ -217,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693473852321</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add 6 seminar">
+      <created>1693820917975</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693820917975</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +267,7 @@
     <MESSAGE value="add 3 seminar" />
     <MESSAGE value="add 3 HM" />
     <MESSAGE value="add 5 seminar" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 5 seminar" />
+    <MESSAGE value="add 6 seminar" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 6 seminar" />
   </component>
 </project>
