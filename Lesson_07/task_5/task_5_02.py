@@ -8,7 +8,7 @@
 ✔ Внутри используйте вызов функции из прошлой задачи.
 """
 
-from Lessson_07.task_4.task_4 import func
+from Lesson_07.task_4.task_4 import func
 
 def func_task_5(extensions, counts):
     for extension, count in zip(extensions, counts):

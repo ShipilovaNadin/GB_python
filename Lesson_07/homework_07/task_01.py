@@ -20,7 +20,7 @@ def batch_rename(new_name, digits, source_ext, dest_ext, range_name, path='.'):
             os.rename(os.path.join(path, filename), os.path.join(path, new_filename))
             counter += 1
 
-batch_rename('new_file', 3, '.jpg', '.md', [1, 3], 'C:\\Users\\nadin\\GB_python\\GB_python\\Lessson_07\\homework_07')
+batch_rename('new_file', 3, '.jpg', '.md', [1, 3], '/Lesson_07\\homework_07')
 
 
 # def rename_file(new_name, num_of_digits, old_extension, new_extension, name_range, directory):
