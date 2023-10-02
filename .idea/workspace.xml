@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87af77d4-9869-4be7-abc7-5b43c004b292" name="Changes" comment="add 7 lesson">
-      <change afterPath="$PROJECT_DIR$/Lessson_07/homework_07/ilnew_file001.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessson_07/homework_07/ilnew_file002.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessson_07/homework_07/task_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_31_08_2023_10_18_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_31_08_2023_10_18__Changes_.xml" beforeDir="false" />
+    <list default="true" id="87af77d4-9869-4be7-abc7-5b43c004b292" name="Changes" comment="add 8 lesson">
+      <change afterPath="$PROJECT_DIR$/lesson_15/task_15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_15/triangle.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="origin/homework_06" />
+    <option name="BRANCH" value="origin/homework_07" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -45,52 +42,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "last_opened_file_path": "C:/Users/nadin/GB_python/GB_python/Lessson_07",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nadin/GB_python/GB_python/lesson_08/homework_08&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nadin\GB_python\GB_python\lesson_08\homework_08" />
+      <recent name="C:\Users\nadin\GB_python\GB_python\lesson_08" />
       <recent name="C:\Users\nadin\GB_python\GB_python\Lessson_07" />
       <recent name="C:\Users\nadin\GB_python\GB_python\lesson_05" />
       <recent name="C:\Users\nadin\GB_python\GB_python\lesson_03" />
-      <recent name="C:\Users\nadin\GB_python\GB_python\lesson_02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nadin\GB_python\GB_python\lesson_08" />
       <recent name="C:\Users\nadin\GB_python\GB_python" />
       <recent name="C:\Users\nadin\GB_python\GB_python\lesson_01" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="GB_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\nadin\GB_python\GB_python\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.10 (GB_python)" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="task_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GB_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,38 +90,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task_03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GB_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\nadin\GB_python\GB_python\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.10 (GB_python)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_06/task_3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_06/task_3/task_03.py" />
-      <option name="PARAMETERS" value="1 5 3" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.task_01" />
-      <item itemvalue="Python.task_03" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.task_01" />
         <item itemvalue="Python.task_01" />
-        <item itemvalue="Python.task_03" />
+        <item itemvalue="Python.task_01" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693913154807</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add 7 homework">
+      <created>1694355336389</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694355336389</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add 8 lesson">
+      <created>1694453955168</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1694453955168</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,6 +224,8 @@
     <MESSAGE value="add 5 seminar" />
     <MESSAGE value="add 6 seminar" />
     <MESSAGE value="add 7 lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 7 lesson" />
+    <MESSAGE value="add 7 homework" />
+    <MESSAGE value="add 8 lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 8 lesson" />
   </component>
 </project>
