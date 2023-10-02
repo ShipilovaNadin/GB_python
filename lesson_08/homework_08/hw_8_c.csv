@@ -1,0 +1,7 @@
+object_type,name,size,parent_directory
+file,task_01.py,2246,C:\Users\nadin\GB_python\GB_python\lesson_08\homework_08
+directory,task_3,2822,C:\Users\nadin\GB_python\GB_python\lesson_08\homework_08
+file,task7_1.txt,301,C:\Users\nadin\GB_python\GB_python\lesson_08\homework_08\task_3
+file,task7_2.txt,80,C:\Users\nadin\GB_python\GB_python\lesson_08\homework_08\task_3
+file,task7_3.txt,500,C:\Users\nadin\GB_python\GB_python\lesson_08\homework_08\task_3
+file,task_3.py,1941,C:\Users\nadin\GB_python\GB_python\lesson_08\homework_08\task_3
